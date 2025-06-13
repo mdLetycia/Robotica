@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int n1;
+char letra;
+float numero;
+
+int main() {
+
+  cout <<"Inteiro: ";
+  cin>> n1;
+  cout <<"Letra: ";
+  cin>> letra;
+  cout <<"Real: ";
+  cin>> numero;
+return 0;
+}
