@@ -1,0 +1,26 @@
+// Example program
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Declaração de Variavel
+    int inteiro = 10;
+    char caracter = 'A';
+    float simples = 10.66;
+    double dupla = 3.141592653;
+    bool ativo = true;
+    short pequeno = 100;
+    long grande = 10000000;
+    
+    
+    cout <<"Inteiro: " << inteiro << endl;
+    cout <<"Numero pequeno: " << pequeno << endl;
+    cout <<"Numero grande: " << grande << endl;
+    cout <<"Caracter: " << caracter << endl;
+    cout <<"Decimal: " << simples << endl;
+    cout <<"Decimal: " << dupla << endl;
+    cout <<"Bool: " << ativo << endl;
+    
+    return 0;
+}
+    
