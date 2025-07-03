@@ -1,0 +1,28 @@
+// Example program
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Declaração de Variavel
+    int n1, n2, soma,subtracao,multiplicacao,divisao ;
+    
+    // Solicita ao usuário os números
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> n1;
+
+    std::cout << "Digite o segundo número: ";
+    std::cin >> n2;
+
+    // Realiza a soma
+    soma = n1 + n2;
+    subtracao = n1 - n2;
+    multiplicacao = n1 * n2;
+    divisao = n1 / n2;
+    
+    std::cout << "A soma de " << n1 << " e " << n2 << " é: " << soma << std::endl;
+    std::cout << "A soma de " << n1 << " e " << n2 << " é: " << subtracao << std::endl;
+    std::cout << "A soma de " << n1 << " e " << n2 << " é: " << multiplicacao << std::endl;
+    std::cout << "A soma de " << n1 << " e " << n2 << " é: " << divisao << std::endl;
+    return 0;
+}
+    
