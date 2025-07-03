@@ -1,0 +1,18 @@
+// Example program
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    //Declaração de constante
+    const double PI= 3.14159265;
+    double raio, area;
+    
+     std::cout << "Digite o raio do círculo: ";
+     std::cin >> raio;
+     
+     area = PI * std::pow(raio, 2);
+
+    std::cout << "A área do círculo com raio " << raio << " é: " << area << std::endl;
+
+    return 0;
